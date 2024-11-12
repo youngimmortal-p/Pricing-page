@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SkillUp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="SkillUp">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+    </head>
+    <body class="w3-cursive">
+        <header id="nav" class="w3-bar w3-black w3-opacity w3-padding w3-hide-small">
+            <a href="#home" class="w3-button w3-bar-item w3-text-green w3-xlarge">SkillUp</a>
+
+            <div class="w3-right">
+                <a href="#home" class="w3-button w3-bar-item w3-center">Home</a>
+                <a href="#pricing" class="w3-button w3-bar-item w3-center">Pricing</a>
+                <a href="#about" class="w3-button w3-bar-item w3-center">About Us</a>
+                <a href="#blog" class="w3-button w3-bar-item w3-center">Blog</a>
+                <a href="#contact" class="w3-button w3-bar-item w3-center">Contact</a>
+            </div>
+        </header>
+
+        <nav class="w3-sidebar w3-hide-large w3-block w3-card w3-center w3-padding-top-64" id="mySidebar" style="width: 100%;">
+           
+                <a href="javascript:void(0)" onclick="closeSidebar()" class="w3-button w3-display-topright w3-xlarge">X</a>
+            
+                    <a href="#home" class="w3-button w3-bar-item w3-center ">Home</a><br>
+                    <a href="#pricing" class="w3-button w3-bar-item w3-center">Pricing</a><br>
+                    <a href="#about" class="w3-button w3-bar-item w3-center">About Us</a><br>
+                    <a href="#blog" class="w3-button w3-bar-item w3-center">Blog</a><br>
+                    <a href="#contact" class="w3-button w3-bar-item w3-center">Contact</a><br>
+                
+        </nav>
+        <div id="mobile-header" class="w3-card w3-bar w3-hide-large w3-hide-medium">
+            <button onclick="openSidebar()" class="w3-bar-item w3-button w3-xxlarge">&#9776;</button>
+            <h1 class="w3-text-green">SkillUp</h1>
+        </div>
+        
+        <main id="home" class="w3-content">
+            <section class="w3-container w3-center w3-animate-fading">
+                <h2 class="w3-text-green">Choose the Perfect Plan for your Learning Journey</h2>
+                <p>Unlock unlimited access to expert-led courses and resources tailored to your goals.</p>
+                <div>
+                    <a href="#" class="w3-button w3-green w3-padding-large w3-round w3-hover-green">Monthly</a>
+                    <a href="#" class="w3-button w3-border w3-border-green w3-padding-large w3-round w3-hover-green">Annually</a>
+                </div>
+            </section>
+
+            <section class="w3-container w3-padding-top-32">
+                <div class="w3-row-padding">
+                    <div class="w3-third w3-margin-bottom w3-hover-shadow w3-padding-64 w3-round w3-animate-right">
+                        <ul class="w3-ul   w3-padding">
+                            <li class="w3-large w3-padding-16"><b>Free</b>
+                                <span class="w3-right"><b>$0</b>/monthly
+                                </span>
+                                <p class="w3-small w3-text-green">Perfect for beginners who want to explore the basics.</p>
+                            </li>
+                            <li class="w3-padding-16">Access to 5 free courses</li>
+                            <li class="w3-padding-16">Basic course materials(PDFs, slides)</li>
+                            <li class="w3-padding-16">Limited community access</li>
+                            <li class="w3-padding-16">Standard support</li>
+                            <li class="w3-padding-16">No certification</li>
+                            <a href="#" class="w3-right w3-padding-16 w3-text-green">Start 30 days free trial</a></p>
+                        </ul>
+                        <div class="w3-center">
+                        <button class="w3-button w3-text-green w3-border w3-border-green w3-padding-top-16 w3-hover-green w3-round">Get Started</button>
+                    </div>
+
+                    <div id="payments" class="w3-center w3-padding-top-16">
+                        <img src="./images/Mastercard-logo.svg.png" alt="Mastercard-logo" class="w3-image" width="35">
+                        <img src="./images/paypal.png" alt="paypal" class="w3-image" width="35">
+                        <img src="./images/visa.png" alt="visa" class="w3-image" width="35">
+                    </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom w3-hover-shadow w3-padding-64 w3-round w3-animate-zoom">
+                        <ul class="w3-ul w3 -white w3-padding">
+                            <li class="w3-padding w3-large">
+                                <b>Basic</b>
+                                <span class="w3-right"><b>$15</b>/monthly</span>
+                                <p class="w3-small w3-text-green">For leaners ready to dive into a deeper range of topics</p>
+                            </li>
+                            <li class="w3-padding-16">Access to 20 courses per month</li>
+                            <li class="w3-padding-16">Downloadable course materials</li>
+                            <li class="w3-padding-16">Community access</li>
+                            <li class="w3-padding-16">Personalised course recommendations</li>
+                            <li class="w3-padding-16">Email support</li>
+                            <li class="w3-padding-16">Course completion certificate</li>
+                            <a href="#" class="w3-right w3-padding-16 w3-text-green">Start 30 days free trial</a>
+                        </ul>
+
+                        <div class="w3-center">
+                            <button class="w3-button w3-border w3-border-green w3-round w3-text-green w3-padding-top-16 w3-hover-green">Get Started</button>
+                        </div>
+
+                        <div id="payments" class="w3-center w3-padding-top-16">
+                            <img src="./images/Mastercard-logo.svg.png" alt="Mastercard-logo" class="w3-image" width="35">
+                            <img src="./images/paypal.png" alt="paypal" class="w3-image" width="35">
+                            <img src="./images/visa.png" alt="visa" class="w3-image" width="35">
+                        </div>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom w3-hover-shadow w3-padding-64 w3-animate-right">
+                        <ul class="w3-ul  w3-padding">
+                            <li class="w3-padding w3-large">
+                                <b>Pro</b>
+                                <span class="w3-right"><b>$35</b>/month</span>
+                                <p class="w3-small w3-text-green">Ideal for those serious about upskilling with advance features</p>
+                            </li>
+                            <li class="w3-padding-16">Unlimited course access</li>
+                            <li class="w3-padding-16">Custom course creation</li>
+                            <li class="w3-padding-16">Advance course materials(e-books, exclusive videos)</li>
+                            <li class="w3-padding-16">Full community access and networking</li>
+                            <li class="w3-padding-16">Advance reporting tools</li>
+                            <li class="w3-padding-16">Priority customer support</li>
+                            <a href="#" class="w3-right w3-padding-16 w3-text-green">Start 30 days free trial</a>
+                        </ul>
+
+                        <div class="w3-center">
+                            <button class="w3-button w3-border w3-border-green w3-round w3-text-green w3-padding w3-hover-green">Get Started</button>
+                        </div>
+
+                        <div id="payments" class="w3-center w3-padding-top-16">
+                            <img src="./images/Mastercard-logo.svg.png" alt="Mastercard-logo" class="w3-image" width="35">
+                            <img src="./images/paypal.png" alt="paypal" class="w3-image" width="35">
+                            <img src="./images/visa.png" alt="visa" class="w3-image" width="35">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-right">
+                    <p>Not sure?We offer a 30-day money back gurantee with all paid plans.<a href="#" class="w3-text-green">Learn more</a></p>
+                </div>
+            </section>
+        </main>
+       
+        <script>
+            function openSidebar(){
+                document.getElementById("mySidebar").style.display = "block"
+            }
+
+            function closeSidebar(){
+                document.getElementById("mySidebar").style.display = "none"
+            }
+        </script>
+    </body>
+</html>

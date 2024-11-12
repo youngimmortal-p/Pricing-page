@@ -1,0 +1,14 @@
+body{
+    background-color: #121212;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#mySidebar{
+    background-color: #121212;
+    opacity: 80%;
+}
+#mySidebar a:hover{
+    
+}
